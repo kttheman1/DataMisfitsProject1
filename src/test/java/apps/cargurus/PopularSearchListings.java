@@ -10,11 +10,10 @@ import pages.cargurus.ShoppingForAUsedCarPage;
 public class PopularSearchListings extends CommonAPI {
 
     @Test
-    public void usePopularSearchLisitngs(){
+    public void usePopularSearchListings(){
         HomePage homePage = new HomePage(getDriver());
         ShoppingForAUsedCarPage shoppingForAUsedCarPage = new ShoppingForAUsedCarPage(getDriver());
         homePage.clickHeaderBuyBtn();
-        waitFor(2);
         //shoppingForAUsedCarPage.scrollToViewElement();
         shoppingForAUsedCarPage.clickCheapManualCarsForSaleLink();
         String actualTitle = getDriver().findElement(By.xpath("//*[@id='cargurus-listing-search']/div/div/div[1]/h1")).getText();

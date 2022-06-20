@@ -30,7 +30,7 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(xpath = "//button[contains(text(),'Update Zip')]")
     private WebElement updateBtn;
 
-    @FindBy(xpath = "//body/main[@id='main']/div[@id='cargurus-listing-search']/div[1]/div[1]/div[2]/div[2]/section[1]")
+    @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[2]/div[2]/section/p/span")
     private WebElement errorMessageBanner;
 
     @FindBy(css = "#react-tabs-6")
@@ -39,7 +39,7 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(css = "#bodyTypeGroup")
     private WebElement bodyStyleDropDownList;
 
-    @FindBy(xpath = "//li[@id='react-tabs-24']")
+    @FindBy(css = "#react-tabs-8")
     private WebElement byPriceTab;
 
     @FindBy(css = "#minPrice")

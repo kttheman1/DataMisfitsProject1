@@ -18,16 +18,13 @@ public class AddCarReview extends CommonAPI {
         LogInPage login = new LogInPage(getDriver());
         WriteACarReviewPage writeACarReviewPage = new WriteACarReviewPage(getDriver());
         getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        waitFor(3);
         homePage.clickSignInBtn();
         login.enterEmail("ravenn587@aol.com");
         login.enterEmailNextBtn();
         login.enterPassword("Abcd1234*?");
         login.enterPasswordSignInBtn();
-        waitFor(3);
         String actual = homePage.getAccountUserName();
         Assert.assertEquals("RavenN1", actual);
-        waitFor(3);
         homePage.clickAddCarReviewBtn();
         writeACarReviewPage.selectMakeDropDownList("Acura");
         writeACarReviewPage.selectModelDropDownList("ILX");

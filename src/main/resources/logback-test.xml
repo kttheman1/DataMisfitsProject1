@@ -1,0 +1,92 @@
+<!--<Configuration name="ConfigTest" status="ERROR" monitorInterval="5">-->
+<!--    <Appenders>-->
+
+<!--        <SystemPropertyArbiter propertyName="env" propertyValue="dev">-->
+<!--            <Console name="Out">-->
+<!--                <PatternLayout pattern="%m%n"/>-->
+<!--            </Console>-->
+<!--        </SystemPropertyArbiter>-->
+<!--        <SystemPropertyArbiter propertyName="env" propertyValue="prod">-->
+<!--            <List name="Out">-->
+<!--            </List>-->
+<!--        </SystemPropertyArbiter>-->
+
+<!--    </Appenders>-->
+<!--    <Loggers>-->
+<!--        <Logger name="org.apache.test" level="trace" additivity="false">-->
+<!--            <AppenderRef ref="Out"/>-->
+<!--        </Logger>-->
+<!--        <Root level="error">-->
+<!--            <AppenderRef ref="Out"/>-->
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--</Configuration>-->
+
+<!--<configuration debug="false" scan="true">-->
+
+<!--    <appender name="STDOUT" target="System.out" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%-5level %date{HH:mm:ss,SSS} %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>DEBUG</level>-->
+<!--        </filter>-->
+<!--    </appender>-->
+
+<!--    <logger name="io.k8s.cassandra" level="DEBUG"/>-->
+
+<!--    <root level="INFO">-->
+<!--        <appender-ref ref="STDOUT" />-->
+<!--    </root>-->
+
+<!--</configuration>-->
+
+<!--<configuration>-->
+
+<!--    <property name="HOME_LOG" value="logs/app.log"/>-->
+
+<!--    <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${HOME_LOG}</file>-->
+
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>logs/archived/app.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>-->
+<!--            &lt;!&ndash; each archived file, size max 10MB &ndash;&gt;-->
+<!--            <maxFileSize>10MB</maxFileSize>-->
+<!--            &lt;!&ndash; total size of all archive files, if total size > 20GB, it will delete old archived file &ndash;&gt;-->
+<!--            <totalSizeCap>20GB</totalSizeCap>-->
+<!--            &lt;!&ndash; 60 days to keep &ndash;&gt;-->
+<!--            <maxHistory>60</maxHistory>-->
+<!--        </rollingPolicy>-->
+
+<!--        <encoder>-->
+<!--            <pattern>%d %p %c{1.} [%t] %m%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <logger name="com.mkyong" level="debug" additivity="false">-->
+<!--        <appender-ref ref="FILE-ROLLING"/>-->
+<!--    </logger>-->
+
+<!--    <root level="error">-->
+<!--        <appender-ref ref="FILE-ROLLING"/>-->
+<!--    </root>-->
+
+<!--</configuration>-->
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <File name="FileAppender" fileName="application-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

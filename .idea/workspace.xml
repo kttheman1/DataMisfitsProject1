@@ -5,30 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ZipCodeSearch.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062020221600PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062020221602PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/filterByPriceSearchResultsPage 062020221634PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/invalidZipCodeErrorMessage 062020221634PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/invalidZipCodeErrorMessage 062020221641PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/invalidZipCodeErrorMessage 062020221642PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/invalidZipCodeErrorMessage 062020221643PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/loginValidCred 061820222059PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/loginValidCred 061820222228PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/recommendedForYou 062020221527PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/recommendedForYou 062020221529PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/recommendedForYou 062020221531PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/recommendedForYou 062020221533PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/recommendedForYou 062020221535PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/sellMyCarFAQLink 062020221556PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/sellMyCarLink 062020221547PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/sellMyCarLink 062020221548PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/sellMyCarLink 062020221549PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FinanceMenuLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SellMenuLinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 061820221027AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 061820221043AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 061820221044AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 061820221052AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/familyFriendlyTrendingSearch 061820221025AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/loginInvalidCred 061820221051AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/preQualify 061420222022PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/preQualify 061420222024PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/preQualify 061420222027PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/preQualify 061420222028PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/preQualify 061820221047AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recentActivity 061620221948PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221931PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221933PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221934PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221935PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221937PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221939PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 061620221948PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCars 061820221027AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCars 061820221044AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCars 061820221053AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 061820221055AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/AddCarReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/AddCarReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/HomePageFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/HomePageFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/InstantMarketValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/InstantMarketValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PopularSearchListings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PopularSearchListings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PreQualify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PreQualify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PriceTrends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PriceTrends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/ShoppingForAUsedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/ShoppingForAUsedCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/TestDriveReviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/TestDriveReviews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/recommendedCarsBasedOnSearchHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/recommendedCarsBasedOnSearchHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +79,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="29vxKHKPhz8R2VTV4aVxdZV63t6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,37 +93,49 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/main/java",
+    "last_opened_file_path": "X:/QA/PNT Project Git pull/Apr2022-web-automation-framework",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\QA\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\QA\DataMisfitsProject1\src\main\resources" />
+      <recent name="X:\QA\DataMisfitsProject1\src" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml">
-    <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.ExcelReader" />
+      <module name="BootCampProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="PATTERN" value="utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apps.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Utility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.Utility" />
+      <module name="BootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,36 +158,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing.byPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="X:/QA/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="byPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing.searchUsedCarsFromShoppingForAUsedCarPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="searchUsedCarsFromShoppingForAUsedCarPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -174,10 +181,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
+        <item itemvalue="Application.ExcelReader" />
+        <item itemvalue="TestNG.X:/QA/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" />
+        <item itemvalue="Application.Utility" />
         <item itemvalue="TestNG.FilterSearchResultsUsedCars.byPrice" />
-        <item itemvalue="TestNG.Testing.byPrice" />
-        <item itemvalue="TestNG.Testing.searchUsedCarsFromShoppingForAUsedCarPage" />
-        <item itemvalue="TestNG.AddCartTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +231,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

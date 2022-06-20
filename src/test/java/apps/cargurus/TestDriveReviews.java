@@ -35,7 +35,6 @@ public class TestDriveReviews extends CommonAPI {
         researchNewandUsedCarsPage.selectChooseACarYearDropDownList("2021");
         researchNewandUsedCarsPage.clickResearchNewAndUsedCarSearchBtn();
         testDriveReviewPage.clickResearchNewAndUsedCarUserReviewTab();
-        waitFor(2);
         Assert.assertEquals("2021 Acura ILX - User Reviews - CarGurus", getDriver().getTitle());
     }
 
@@ -51,7 +50,6 @@ public class TestDriveReviews extends CommonAPI {
         researchNewandUsedCarsPage.selectChooseACarYearDropDownList("2021");
         researchNewandUsedCarsPage.clickResearchNewAndUsedCarSearchBtn();
         testDriveReviewPage.clickResearchNewAndUsedCarTrimAndSpecsTab();
-        waitFor(2);
         String actualTrimAndSpecsTitle = getDriver().findElement(By.xpath("//*[@id='contentBody']/div/div[1]/h1/span")).getText();
         Assert.assertEquals("2021 Acura ILX Trims and Specs", actualTrimAndSpecsTitle );
 

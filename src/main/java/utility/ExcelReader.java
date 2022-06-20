@@ -1,19 +1,23 @@
 package utility;
 
+import base.CommonAPI;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExcelReader {
+public class ExcelReader extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(ExcelReader.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ExcelReader.class);
+
 
     XSSFWorkbook excelWBook;
     XSSFSheet excelWSheet;
@@ -30,11 +34,11 @@ public class ExcelReader {
             excelWBook = new XSSFWorkbook(excelFile);
             excelWSheet = excelWBook.getSheet(sheet);
             cell = excelWSheet.getRow(rowNum).getCell(colNum);
-            String cellValue = cell.getStringCellValue();
+            String cellValue = String.valueOf(cell.getNumericCellValue());
             excelFile.close();
             return cellValue;
         }catch (Exception e){
-            LOG.info("no file found");
+           LOG.info("no file found");
             return "";
         }
     }
@@ -57,7 +61,7 @@ public class ExcelReader {
             excelFile.close();
         }catch (Exception e){
             e.printStackTrace();
-            LOG.info("no data found");
+           LOG.info("no data found");
         }
         return columnData;
     }
@@ -91,11 +95,12 @@ public class ExcelReader {
         return value;
     }
 
-//    public static void main(String[] args)  {
-//        String path = "C:\\Users\\PIIT_NYA\\eclipse-workspace\\April22-SeleniumProject\\data\\TestData.xlsx";
-//        ExcelReader excelReader = new ExcelReader(path);
-//        List<String> items = excelReader.getEntireColumnForGivenHeader("Sheet1", "id");
-//        //String items = excelReader.getValueForGivenHeaderAndKey("Sheet1", "id", "id004");
-//        System.out.println(items);
-//    }
+    public static void main(String[] args) throws IOException, InterruptedException {
+        String path = "X:\\QA\\DataMisfitsProject1\\ZipCodeSearch.xlsx";
+        ExcelReader excelReader = new ExcelReader(path);
+        List<String> items = excelReader.getEntireColumnForGivenHeader("Sheet1", "ZipCodes");
+        //String items = excelReader.getValueForGivenHeaderAndKey("Sheet1", "id", "id004");
+        System.out.println(items);
+
+    }
 }

@@ -20,7 +20,6 @@ public class PriceTrends extends CommonAPI {
         usedCarPriceTrendsPage.clearEndDateTextBox();
         usedCarPriceTrendsPage.typeEndDateTextBox("6/8/2022");
         usedCarPriceTrendsPage.clickUpdateChartBtn();
-        waitFor(3);
         Assert.assertEquals("Used Car Price Trends - CarGurus", getDriver().getTitle());
     }
 }

@@ -15,12 +15,11 @@ public class HomePageFeatures extends CommonAPI {
         HomePage homePage = new HomePage(getDriver());
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);", getDriver().findElement(By.cssSelector("button[class='c2dVinFormSubmit c2d-banner-cta']")));
-        waitFor(7);
         homePage.clickRecommendedForYouListing();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("h1[class='IpF2YF']")).isDisplayed());
     }
 
-    @Test
+  //  @Test
     public void recentActivity() {
         HomePage homePage = new HomePage(getDriver());
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
@@ -29,7 +28,7 @@ public class HomePageFeatures extends CommonAPI {
         Assert.assertTrue(getDriver().findElement(By.cssSelector("h1[class='IpF2YF']")).isDisplayed());
     }
 
-    @Test
+  //  @Test
     public void recentPriceDrops() {
         HomePage homePage = new HomePage(getDriver());
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
@@ -38,7 +37,7 @@ public class HomePageFeatures extends CommonAPI {
         Assert.assertTrue(getDriver().findElement(By.cssSelector("h1[class='IpF2YF']")).isDisplayed());
     }
 
-    @Test
+  //  @Test
     public void modelsYouMayLike() {
         HomePage homePage = new HomePage(getDriver());
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
@@ -47,7 +46,7 @@ public class HomePageFeatures extends CommonAPI {
         Assert.assertTrue(getDriver().findElement(By.xpath("//span[contains(text(),'Email me price drops and new listings for these re')]")).isDisplayed());
     }
 
-    @Test
+  //  @Test
     public void familyFriendlyTrendingSearch() {
         HomePage homePage = new HomePage(getDriver());
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
