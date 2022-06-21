@@ -21,7 +21,6 @@ public class ShoppingForAUsedCar extends CommonAPI {
         shoppingForAUsedCarPage.typeZipCode("11375");
         shoppingForAUsedCarPage.selectRadius("50 mi");
         shoppingForAUsedCarPage.clickSearchBtn();
-        waitFor(2);
         String actualSearchTitleText = getDriver().findElement(By.xpath("//body/main[@id='main']/div[@id='cargurus-listing-search']/div[1]/div[1]/div[1]/h1[1]")).getText();
         Assert.assertEquals("Used Acura ILX for Sale in Forest Hills, NY", actualSearchTitleText);
     }
