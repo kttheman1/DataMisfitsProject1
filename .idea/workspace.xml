@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/GroceryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/LocationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/LogoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/NavigateToCustomerServicePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/RenewPersonalMembershipPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/ShopMembershipPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/ShopPhotoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/ViewWarehouseSavingsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/GroceryTabTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/HelpCustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/LogOutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/NavigationToWarehouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/RenewPersonalMembershipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/SearchLocationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/ShopMembershipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/ShopPhotoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222303PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/LogoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/SearchIngPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/WarehouseLocationSelectPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/AddToCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/CreateAccntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/CreateAccntTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/ShopMenudropdownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/floatingMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/LoginValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/logoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/Test _cases_costco.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/Test _cases_costco.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
