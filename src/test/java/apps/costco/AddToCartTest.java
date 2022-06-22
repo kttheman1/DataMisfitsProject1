@@ -4,7 +4,7 @@ import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AddToCartTest extends CommonAPI {
+/*public class AddToCartTest extends CommonAPI {
     @Test(enabled = false)
     public  void addToCart(){
 
@@ -16,4 +16,4 @@ public class AddToCartTest extends CommonAPI {
         click("#add-to-cart-btn");
 
     }
-}
+}*/

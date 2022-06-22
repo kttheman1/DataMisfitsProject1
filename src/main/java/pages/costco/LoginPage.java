@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class loginPage extends CommonAPI  {
+public class LoginPage extends CommonAPI  {
 
     @FindBy(css ="#signInHeader")
     WebElement headerText;
@@ -23,7 +23,7 @@ public class loginPage extends CommonAPI  {
     WebElement password;
     @FindBy(xpath ="//*[@id='next']")
     WebElement btnSignin;
-    public loginPage(WebDriver driver){
+    public LoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
     public String getHeaderText(String s){

@@ -10,18 +10,16 @@ import java.lang.reflect.Type;
 
 public class SearchResultPage extends CommonAPI {
 
-    @FindBy(xpath="/html/head/title")
-    WebElement getTitleForPage;
+    @FindBy(css="#search-field")
+    WebElement typeToSearch;
 
-
+    //*[@id="search-field"]
     public SearchResultPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-    public String getSearchPageTitle(){
-        return getPageTitle();
+    public void searchProd(String item){
+        typeAndEnter( typeToSearch,item );
     }
-
-
 
     }
 

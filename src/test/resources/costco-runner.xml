@@ -5,13 +5,46 @@
     <parameter name="url" value="https://www.costco.ca"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="windows"></parameter>
-    <test name=" costco search">
+
+<!--    <test name=" costco search">-->
+<!--        <classes>-->
+<!--            <class name="apps.pagetestcasescosto.SearchTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name=" costco addtoCart">-->
+<!--        <classes>-->
+<!--            <class name="apps.pagetestcasescosto.AddToCartTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name=" costco shopmembership">-->
+<!--        <classes>-->
+<!--            <class name="apps.pagetestcasescosto.ShopMembershipTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name=" costco shopmembership">
         <classes>
-            <class name="apps.pagetestcasescosto.loginTest"></class>
+            <class name="apps.pagetestcasescosto.ShopPhotoTest"></class>
         </classes>
     </test>
+    <!--    <test name=" costco login">-->
+<!--        <classes>-->
+<!--            <class name="apps.pagetestcasescosto.LoginTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name=" costco homepage tests">-->
+<!--        <classes>-->
+<!--            <class name="apps.pagetestcasescosto.HelpCustomerTest"></class>-->
+<!--            <class name="apps.pagetestcasescosto.NavigationToWarehouseTest"></class>-->
+<!--            <class name="apps.pagetestcasescosto.SearchLocationTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
+<!--    <test name=" Costco logout">-->
+<!--        <classes>-->
+<!--            <class name="apps.pagetestcasescosto.LogOutTest"></class>-->
 
+<!--        </classes>-->
+<!--    </test>-->
 
 
 

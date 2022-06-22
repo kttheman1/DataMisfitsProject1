@@ -11,60 +11,45 @@ import java.util.List;
 
 public class SearchTest  extends CommonAPI {
 
-    @Test
+    @Test(enabled = true)
     public void waterBottleSearch() {
-
-        HomePage homePage = new HomePage(getDriver());
-        SearchResultPage searchResultPage = new SearchResultPage(getDriver());
-        homePage.searchProduct("water bottle");
-
-        homePage.clickToSearch();
-        waitFor(3);
+       // getDriver().switchTo().alert().dismiss();
+        HomePage homePage =new HomePage(getDriver());
+        waitFor(10);
+        homePage.setWindowToClose();
+        homePage.closeEmailTab();
+        SearchResultPage searchProduct=new SearchResultPage(getDriver());
+        searchProduct.searchProd("water bottle");
+        waitFor(10);
         //<title>water bottle &nbsp;| Costco</title>
-        String expectedPageTitle = "water bottle &nbsp;| Costco  ";
-        Assert.assertFalse(expectedPageTitle, SearchResultPage.getSearchPageTitle());
+        String expectedPageTitle  = searchProduct.getPageTitle();
+        Assert.assertEquals("water bottle &nbsp;| Costco",expectedPageTitle);
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void kitchenBagSearch() {
+        //getDriver().switchTo().alert().dismiss();
+        HomePage homePage =new HomePage(getDriver());
+        waitFor(20);
+        homePage.setWindowToClose();
+        homePage.closeEmailTab();
 
-        HomePage homePage = new HomePage(getDriver());
-        SearchResultPage searchResultPage = new SearchResultPage(getDriver());
-        homePage.searchElementAndEnter("kitchen bags");
-        homePage.clickToSearch();
+        SearchResultPage searchProduct=new SearchResultPage(getDriver());
+        searchProduct.searchProd("kitchen bags");
         waitFor(3);
-        String expectedKitchenPageTitle = "kitchen bags  | Costco";
-        Assert.assertTrue(expectedKitchenPageTitle, SearchResultPage.getSearchPageTitle());
+        String expected = "kitchen bags &nbsp;| Costco";
+        String actual= searchProduct.getPageTitle();
+        Assert.assertEquals(expected,actual);
 
     }
-
-    @Test
+/*
+    @Test(enabled = true)
     public void kirklandItemSearch() {
 
-        HomePage homePage = new HomePage(getDriver());
-        homePage.searchProduct("kirkland");
-        homePage.clickToSearch();
-        waitFor(5);
+        getDriver().switchTo().alert().dismiss();
+        HomePage homePage =new HomePage(getDriver());
+        homePage.setWindowToClose();
 
-
-    }
-
-    public List<String> items() {
-        List<String> items = new ArrayList<>();
-        items.add("shampoo");
-        items.add("honey");
-        items.add("laptop");
-        items.add("printer");
-        return items;
-    }
-
-    @Test
-    public void searchMultipleItems() {
-        HomePage homePage = new HomePage(getDriver());
-        for (String item : items()) {
-            homePage.searchElementAndEnter(item);
-            homePage.clearSearchField();
-        }
-    }
+    }*/
 }

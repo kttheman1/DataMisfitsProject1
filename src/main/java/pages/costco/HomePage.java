@@ -11,16 +11,32 @@ import java.util.List;
 
 public class HomePage extends CommonAPI {
 
+    //to set language
+    @FindBy(xpath ="//*[@id='language-radio-buttons']/label[1]")
+    private WebElement setLanguange;
+    //to close email
+    @FindBy(xpath ="//*[@id='email-popup']/div[2]/div/div[3]/a")
+    private WebElement emailpopup;
+    //to close window
+
+
+
+    @FindBy(xpath="//*[@id=language-region-set")
+    private WebElement closeTabToproceed;
+
+    @FindBy(xpath="//*[@id=\"email-popup\"]/div[2]/div/div[3]/a")
+    private WebElement emailTab;
 
     @FindBy(name = "keyword")
-    WebElement searchField;
+    private WebElement searchField;
 
     @FindBy(xpath = "//*[@id='navigation-dropdown']")
-    WebElement menuDropdown;
+    private WebElement menuDropdown;
     @FindBy(css = "#header_sign_in")
-    WebElement floatingMenu;
-    @FindBy(xpath = "//*[@id=\"navigation-dropdown\"]")
-    WebElement menuDropdownOptions;
+    private WebElement floatingMenu;
+
+    @FindBy(xpath = "//*[@id='navigation-dropdown']")
+    private WebElement menuDropdownOptions;
     @FindBy(xpath = "//*[@id='formcatsearch']/div[2]/button/i")
     WebElement btnClick;
 
@@ -61,6 +77,13 @@ public class HomePage extends CommonAPI {
     }
 
     //reusable steps
+
+    public  void setWindowToClose(){
+        click(closeTabToproceed);
+    }
+    public void closeEmailTab(){
+        click(emailTab);
+    }
     public void searchProduct(String prodname) {
         searchField.sendKeys(prodname);
     }
@@ -100,7 +123,6 @@ public class HomePage extends CommonAPI {
     {
 
         orderReturnTab.click();
-
     }
     public void getWareHouseSavings ()
     {
