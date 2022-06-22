@@ -1,6 +1,7 @@
 package apps.bjs;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.bjs.HomePage;
@@ -8,18 +9,31 @@ import pages.bjs.LogInPage;
 
 public class LoginTest extends CommonAPI {
 
-        @Test
-        public void validLoginCred() {
-            pages.bjs.HomePage homePage = new HomePage(getDriver());
-            pages.bjs.LogInPage loginPage = new LogInPage(getDriver());
-            homePage.clickSignInBtn();
-            loginPage.typeEmailForLogin("kttheman1@aol.com");
-            loginPage.typePasswordForLogin("Tomsun@32!");
-            loginPage.clickLoginSignInBtn();
+    @Test
+    public void validLoginCred() {
+        HomePage homePage = new HomePage(getDriver());
+        LogInPage loginPage = new LogInPage(getDriver());
+        homePage.clickSignInBtn();
+        loginPage.typeEmailForLogin("kttheman1@aol.com");
+        loginPage.typePasswordForLogin("Tomsun@32!");
+        loginPage.clickLoginSignInBtn();
+        Assert.assertTrue(getDriver().findElement(By.cssSelector("login-state ml-1")).isDisplayed());
 
-        }
+    }
+
+    @Test
+    public void invalidLoginCred() {
+        HomePage homePage = new HomePage(getDriver());
+        LogInPage loginPage = new LogInPage(getDriver());
+        homePage.clickSignInBtn();
+        loginPage.typeEmailForLogin("123@gmail.com");
+        loginPage.typePasswordForLogin("12345");
+        loginPage.clickLoginSignInBtn();
+        Assert.assertTrue(getDriver().findElement(By.cssSelector("errMsgsignIn")).isDisplayed());
 
 
     }
+
+}
 
 

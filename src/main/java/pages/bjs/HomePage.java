@@ -8,29 +8,27 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends CommonAPI {
 
-    @FindBy(css = ".login-state ml-1")
+    @FindBy(css = "button[class = 'login-state ml-1']")
     private WebElement signInBtn;
 
     @FindBy(css = "#searchTerm")
     private WebElement searchBar;
 
-    @FindBy(css = ".fa fa-search")
+    @FindBy(css = "button[class = 'fa fa-search']")
     private WebElement searchBtn;
 
-    @FindBy(css = ".cart-style")
+    @FindBy(css = "button[class = 'cart-style']")
     private WebElement addToCartBtn;
 
-    @FindBy(css = ".club-name-b2c club-name-space")
+    @FindBy(css = "button[class = 'club-name-b2c club-name-space']")
     private WebElement storeLocationBtn;
 
-//    @FindBy(css = "")
-//    private WebElement ;
+    @FindBy(css = "button[class = 'col-xl-6 col-md-7 col-7 pr-0']")
+    private WebElement helpCenterAndContactUsBtn;
 
 
 
-    public HomePage(WebDriver driver) {
-    PageFactory.initElements(driver, this);
-}
+    public HomePage(WebDriver driver) { PageFactory.initElements(driver, this); }
 
     public void clickSignInBtn() {
         click(signInBtn);
@@ -39,6 +37,8 @@ public class HomePage extends CommonAPI {
     public void typeSearchTerm(String text) {
         type(searchBar, text);
     }
+
+    public void clickSearchBar() { click(searchBar); }
 
     public void clickSearchBtn() {
         click(searchBtn);
@@ -50,6 +50,10 @@ public class HomePage extends CommonAPI {
 
     public void clickStoreLocationBtn() {
         click(storeLocationBtn);
+    }
+
+    public void clickHelpCenterAndContactUsBtn() {
+        click(helpCenterAndContactUsBtn);
     }
 
 
