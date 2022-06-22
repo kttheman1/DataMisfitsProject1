@@ -49,13 +49,13 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id='deliveryLocation']/div/div/div[2]/div")
     WebElement setDeliveryLocation;
 
-    @FindBy(xpath = " //*[@id=' header_order_and_returns']")
+    @FindBy(css ="# header_order_and_returns")
     WebElement orderReturnTab;
 
-    @FindBy(xpath = "//*[@id='cart-d']")
+    @FindBy(css = "#cart-d")
     WebElement cartTab;
 
-    @FindBy(xpath = "//*[@id=' warehouse-coupons']")
+    @FindBy( css ="# warehouse-coupons")
     WebElement warehouseSavingTab;
 
     @FindBy(xpath = "//*[@id='email-signup-link']")
