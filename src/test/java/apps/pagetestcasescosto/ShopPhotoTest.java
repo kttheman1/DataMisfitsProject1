@@ -15,7 +15,7 @@ public class ShopPhotoTest extends CommonAPI {
         ShopPhotoPage printPhoto=new ShopPhotoPage(getDriver());
         printPhoto.selectPhotoTab();
         printPhoto.shopPhoto();
-        printPhoto.printPhoto();
+        printPhoto.printPhoto();gi
         waitFor(3);
         String expected="Photo Prints | Online Photo Printing | Costco Photo Centre";
         String actual =printPhoto.getPageTitle();
