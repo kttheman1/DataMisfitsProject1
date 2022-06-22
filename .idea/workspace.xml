@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/mac/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/mac/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/CustomerServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/CustomerServicePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/logoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/logoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +41,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,9 +58,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="29vxKHKPhz8R2VTV4aVxdZV63t6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,76 +68,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/main/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "/Users/kevinschool/IdeaProjects/DataMisfitsProject1/driver/windows"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java" />
+      <recent name="$PROJECT_DIR$/driver/windows" />
+      <recent name="$PROJECT_DIR$/driver/mac" />
+      <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1\test_cases" />
+      <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
-      <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apps.costco" />
     </key>
   </component>
-
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.bjs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.bjs" />
-      <option name="MAIN_CLASS_NAME" value="apps.bjs.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing.byPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml">
+    <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="byPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-
+    <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -124,7 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-
+        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml" />
+        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -137,14 +120,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654007294358</updated>
     </task>
-    <task id="LOCAL-00001" summary="kevin's update">
-      <created>1655748076824</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1655748076824</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +146,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
