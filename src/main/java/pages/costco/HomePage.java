@@ -24,7 +24,7 @@ public class HomePage extends CommonAPI {
     @FindBy(css="#language-region-set")
     private WebElement closeTabToproceed;
 
-    @FindBy(xpath="//*[@id=\"email-popup\"]/div[2]/div/div[3]/a")
+    @FindBy( css ="#email-popup")
     private WebElement emailTab;
 
     @FindBy(name = "keyword")
@@ -35,9 +35,9 @@ public class HomePage extends CommonAPI {
     @FindBy(css = "#header_sign_in")
     private WebElement floatingMenu;
 
-    @FindBy(xpath = "//*[@id='navigation-dropdown']")
+    @FindBy(css ="# navigation-dropdown")
     private WebElement menuDropdownOptions;
-    @FindBy(xpath = "//*[@id='formcatsearch']/div[2]/button/i")
+    @FindBy( css  = "#formcatsearch")
     WebElement btnClick;
 
     @FindBy(xpath = "//*[@id='header_sign_in']")
