@@ -11,11 +11,11 @@ public class ShopPhotoTest extends CommonAPI {
     public void printPhotoTest(){
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
-        homePage.closeEmailTab();
+        //homePage.closeEmailTab();
         ShopPhotoPage printPhoto=new ShopPhotoPage(getDriver());
         printPhoto.selectPhotoTab();
         printPhoto.shopPhoto();
-        printPhoto.printPhoto();gi
+        printPhoto.printPhoto();
         waitFor(3);
         String expected="Photo Prints | Online Photo Printing | Costco Photo Centre";
         String actual =printPhoto.getPageTitle();

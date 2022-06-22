@@ -21,7 +21,7 @@ public class HomePage extends CommonAPI {
 
 
 
-    @FindBy(xpath="//*[@id=language-region-set")
+    @FindBy(css="#language-region-set")
     private WebElement closeTabToproceed;
 
     @FindBy(xpath="//*[@id=\"email-popup\"]/div[2]/div/div[3]/a")
