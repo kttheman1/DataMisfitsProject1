@@ -8,8 +8,11 @@
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="" />
 =======
 
+<<<<<<< HEAD
     </list>
 >>>>>>> 1f39cc0b9244c85f0d0859a904a41eb4b3c9d036
+=======
+>>>>>>> 286c9edd070a7e2ef9c973fc8b8107a6889ec494
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +32,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,11 +44,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
-
+  <component name="ProjectId" id="2AxRvOK1hUFscEclJemkPaVF9Zc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
 <<<<<<< HEAD
@@ -58,11 +63,16 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
 =======
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+>>>>>>> 286c9edd070a7e2ef9c973fc8b8107a6889ec494
 
 >>>>>>> 1f39cc0b9244c85f0d0859a904a41eb4b3c9d036
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
 <<<<<<< HEAD
       <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1\test_cases" />
@@ -158,6 +168,17 @@
       <option name="PROPERTIES_FILE" value="" />
 =======
 
+=======
+    <key name="CopyFile.RECENT_KEYS" />
+    <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" />
+    <option name="TEST_OBJECT" value="SUITE" />
+    <properties />
+    <listeners />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+    <configuration>
+>>>>>>> 286c9edd070a7e2ef9c973fc8b8107a6889ec494
       <option name="TEST_OBJECT" value="SUITE" />
 >>>>>>> 1f39cc0b9244c85f0d0859a904a41eb4b3c9d036
       <properties />
@@ -201,10 +222,14 @@
         <item itemvalue="TestNG.SearchTest.kirklandItemSearch" />
 =======
     <recent_temporary>
+<<<<<<< HEAD
       <list>
 
 >>>>>>> 1f39cc0b9244c85f0d0859a904a41eb4b3c9d036
       </list>
+=======
+      <list />
+>>>>>>> 286c9edd070a7e2ef9c973fc8b8107a6889ec494
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -214,8 +239,16 @@
       <created>1655141141355</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-
+      <updated>1655141141355</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates for bjs">
+      <created>1655889460251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655889460251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
