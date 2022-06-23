@@ -21,8 +21,5 @@ public class DealerShipsNearMe extends CommonAPI {
         searchForDealersPage.clickSearchDealershipSearchBtn();
         String actual = getDriver().findElement(By.xpath("//*[@id='root']/div[4]/section[1]/div[1]/h1")).getText();
         Assert.assertEquals("Acura dealerships near me (Forest Hills, Queens, NY 11375)", actual);
-
-
-
     }
 }
