@@ -27,7 +27,7 @@ public class SearchTest extends CommonAPI {
     homePage.clickSearchBar();
     homePage.typeSearchTerm("Land O Lakes eggs");
     homePage.clickSearchBtn();
-    Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id=\"slot3\"]/div[3]/div/app-pdp-name-and-item-number-organism/section/div[1]/h1")).isDisplayed());
+    Assert.assertTrue(getDriver().findElement(By.cssSelector("mz-thumb-selected dark-bg mz-thumb")).isDisplayed());
 
 }
 
