@@ -4,10 +4,10 @@
 <suite name="bjs smoke">
     <parameter name="url" value="https://www.bjs.com/"></parameter>
     <parameter name="browser" value="chrome"></parameter>
-    <parameter name="os" value="mac"></parameter>
+    <parameter name="os" value="OS X"></parameter>
     <test name="login tests">
         <classes>
-            <class name="apps.bjs.LoginTest"></class>
+            <class name="apps.bjs.CustomerServiceTest"></class>
         </classes>
     </test>
 

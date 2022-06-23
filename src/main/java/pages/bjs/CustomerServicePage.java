@@ -14,7 +14,7 @@ public class CustomerServicePage extends CommonAPI {
     @FindBy(xpath = "/html/body/div[7]/div/div[2]/div[2]/div")
     private WebElement customerServiceOrdersBtn;
 
-    @FindBy(xpath = "/html/body/div[7]/div/div[2]/div[3]/div")
+    @FindBy(xpath = "/html/body/div[2]/div/div[2]/div[3]/div")
     private WebElement customerServiceServicesBtn;
 
     @FindBy(xpath = "/html/body/div[7]/div/div[2]/div[4]/div")
@@ -38,7 +38,7 @@ public class CustomerServicePage extends CommonAPI {
     @FindBy(css = ".contact-list-description")
     private WebElement customerServiceChatBtn;
 
-    @FindBy(xpath = "/html/body/div[7]/div/div[3]/div[1]/div[3]/div")
+    @FindBy(xpath = "/html/body/div[2]/div/div[3]/div[1]/div[3]")
     private WebElement customerServiceContactUsBtn;
 
     public CustomerServicePage(WebDriver driver) { PageFactory.initElements(driver, this); }

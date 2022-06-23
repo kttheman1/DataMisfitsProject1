@@ -102,7 +102,7 @@ public class CustomerServiceTest extends CommonAPI {
         CustomerServicePage customerService = new CustomerServicePage(getDriver());
         homePage.clickHelpCenterAndContactUsBtn();
         customerService.clickCustomerServiceChatBtn();
-        Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id=\"rich-content-cec79980-9e81-11ec-9527-eb302958eddc\"]/div")).isDisplayed());
+        Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id='rich-content-cec79980-9e81-11ec-9527-eb302958eddc']/div")).isDisplayed());
     }
     @Test
     public void contactUs() {

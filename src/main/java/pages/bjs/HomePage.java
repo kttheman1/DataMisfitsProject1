@@ -8,22 +8,22 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends CommonAPI {
 
-    @FindBy(css = "button[class = 'login-state ml-1']")
+    @FindBy(css = "span[class = 'login-state ml-1']")
     private WebElement signInBtn;
 
     @FindBy(css = "#searchTerm")
     private WebElement searchBar;
 
-    @FindBy(css = "button[class = 'fa fa-search']")
+    @FindBy(css = "i[class = 'fa fa-search']")
     private WebElement searchBtn;
 
-    @FindBy(css = "button[class = 'cart-style']")
+    @FindBy(css = "img[class = 'cart-style']")
     private WebElement addToCartBtn;
 
-    @FindBy(css = "button[class = 'club-name-b2c club-name-space']")
+    @FindBy(css = "a[class = 'club-name-b2c club-name-space']")
     private WebElement storeLocationBtn;
 
-    @FindBy(css = "button[class = 'col-xl-6 col-md-7 col-7 pr-0']")
+    @FindBy(css = "a[class = 'col-xl-6 col-md-7 col-7 pr-0']")
     private WebElement helpCenterAndContactUsBtn;
 
 

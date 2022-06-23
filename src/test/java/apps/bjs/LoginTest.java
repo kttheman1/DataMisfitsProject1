@@ -9,17 +9,17 @@ import pages.bjs.LogInPage;
 
 public class LoginTest extends CommonAPI {
 
-    @Test
-    public void validLoginCred() {
-        HomePage homePage = new HomePage(getDriver());
-        LogInPage loginPage = new LogInPage(getDriver());
-        homePage.clickSignInBtn();
-        loginPage.typeEmailForLogin("kttheman1@aol.com");
-        loginPage.typePasswordForLogin("Tomsun@32!");
-        loginPage.clickLoginSignInBtn();
-        Assert.assertTrue(getDriver().findElement(By.cssSelector("login-state ml-1")).isDisplayed());
-
-    }
+//    @Test
+//    public void validLoginCred() {
+//        HomePage homePage = new HomePage(getDriver());
+//        LogInPage loginPage = new LogInPage(getDriver());
+//        homePage.clickSignInBtn();
+//        loginPage.typeEmailForLogin("kttheman1@aol.com");
+//        loginPage.typePasswordForLogin("Tomsun@32!");
+//        loginPage.clickLoginSignInBtn();
+//        Assert.assertTrue(getDriver().findElement(By.cssSelector("login-state ml-1")).isDisplayed());
+//
+//    }
 
     @Test
     public void invalidLoginCred() {
