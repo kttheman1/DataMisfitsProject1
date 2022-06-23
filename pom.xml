@@ -69,7 +69,7 @@
         <version>2.22.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>..\April22-SeleniumProject\src\test\resources\amazon-runner.xml</suiteXmlFile>
+            <suiteXmlFile>..\IdeaProjects\DataMisfitsProject1\src\test\resources\costco-runner.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

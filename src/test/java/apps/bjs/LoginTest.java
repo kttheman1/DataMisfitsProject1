@@ -14,8 +14,8 @@ public class LoginTest extends CommonAPI {
 //        HomePage homePage = new HomePage(getDriver());
 //        LogInPage loginPage = new LogInPage(getDriver());
 //        homePage.clickSignInBtn();
-//        loginPage.typeEmailForLogin("kttheman1@aol.com");
-//        loginPage.typePasswordForLogin("Tomsun@32!");
+//        loginPage.typeEmailForLogin("98989@aol.com");
+//        loginPage.typePasswordForLogin("888888");
 //        loginPage.clickLoginSignInBtn();
 //        Assert.assertTrue(getDriver().findElement(By.cssSelector("login-state ml-1")).isDisplayed());
 //
