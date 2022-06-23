@@ -8,7 +8,6 @@ public class ShopMenudropdownTest extends CommonAPI {
 
     @Test(enabled = false)
     public void selectBabyOptionFromShopMenu() {
-        getDriver().switchTo().alert().dismiss();
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
         homePage.closeEmailTab();
@@ -21,7 +20,7 @@ public class ShopMenudropdownTest extends CommonAPI {
 
     @Test(enabled = false)
     public void getDropDownlist() {
-        getDriver().switchTo().alert().dismiss();
+
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
         homePage.closeEmailTab();
@@ -34,7 +33,7 @@ public class ShopMenudropdownTest extends CommonAPI {
 
     @Test(enabled = false)
     public void selectComputerOptionFromDropdown() {
-        getDriver().switchTo().alert().dismiss();
+
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
         homePage.closeEmailTab();

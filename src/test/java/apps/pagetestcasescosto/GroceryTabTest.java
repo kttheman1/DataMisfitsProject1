@@ -20,7 +20,6 @@ public class GroceryTabTest extends CommonAPI {
     String actual=grocery.getPageTitle();
     Assert.assertEquals(expected,actual);
 
-
 }
 
 

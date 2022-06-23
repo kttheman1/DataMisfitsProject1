@@ -5,22 +5,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage extends CommonAPI {
 
-    //to set language
-    @FindBy(xpath ="//*[@id='language-radio-buttons']/label[1]")
-    private WebElement setLanguange;
-    //to close email
-    @FindBy(xpath ="//*[@id='email-popup']/div[2]/div/div[3]/a")
-    private WebElement emailpopup;
-    //to close window
-
-
-
+    private final Logger LOG = LoggerFactory.getLogger(HomePage.class);
     @FindBy(css="#language-region-set")
     private WebElement closeTabToproceed;
 
@@ -80,12 +73,15 @@ public class HomePage extends CommonAPI {
 
     public  void setWindowToClose(){
         click(closeTabToproceed);
+        LOG.info("set region");
     }
     public void closeEmailTab(){
         click(emailTab);
+        LOG.info("close email");
     }
     public void searchProduct(String prodname) {
         searchField.sendKeys(prodname);
+        LOG.info("search product ");
     }
 
     public void searchElementAndEnter(String item) {
@@ -94,59 +90,73 @@ public class HomePage extends CommonAPI {
 
     public void selectOptionFromShopMenuDropdown(String option) {
         selectFromDropdown(menuDropdown, option);
+        LOG.info("select from shopmenu");
     }
 
     public void hoverOverFloatingMenu(WebDriver driver) {
         hoverOver(driver, floatingMenu);
+        LOG.info("mouse hover starts ");
     }
 
     public void clearSearchField() {
         clear(searchField);
+        LOG.info("clear search ");
     }
 
     public void clickToSearch() {
         click(btnClick);
+        LOG.info("click for searching");
     }
     public void currentWarehouse () {
         setWareHouse.click();
+        LOG.info("set warehouse");
     }
     public void setDeliveryAddress () {
 
         setDeliveryLocation.click();
+        LOG.info("set delivery address");
     }
     public  void clickSignIn()
     {
         btnSignin.click();
+        LOG.info("Sign in btn");
 
     }
     public void findOrderAndReturn ()
     {
 
         orderReturnTab.click();
+        LOG.info("navigate to order tab");
     }
     public void getWareHouseSavings ()
     {
         warehouseSavingTab.click();
+        LOG.info("get tp warehosue savings");
     }
     public void getEmailOffers ()
     {
         emailOffersTab.click();
+        LOG.info("naviate to email offers");
     }
     public void getCustmrService ()
     {
         customerServiceTab.click();
+        LOG.info("customer services");
     }
     public void cartToCheck ()
     {
         cartTab.click();
+        LOG.info(" cart tab");
     }
     public void selectCountry ()
     {
         setCountryTab.click();
+        LOG.info("select country");
     }
     public void selectLanguage ()
     {
         languageTab.click();
+        LOG.info("set language");
     }
     public List<String> getHomePageDropdownOptions() {
         List<String> options = new ArrayList<>();

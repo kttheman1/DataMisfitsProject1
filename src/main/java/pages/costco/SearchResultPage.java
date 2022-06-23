@@ -5,10 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.Type;
 
 public class SearchResultPage extends CommonAPI {
+
+    private final Logger LOG = LoggerFactory.getLogger(SearchResultPage.class);
 
     @FindBy(css="#search-field")
     WebElement typeToSearch;
@@ -19,6 +23,7 @@ public class SearchResultPage extends CommonAPI {
     }
     public void searchProd(String item){
         typeAndEnter( typeToSearch,item );
+        LOG.info(" search product");
     }
 
     }

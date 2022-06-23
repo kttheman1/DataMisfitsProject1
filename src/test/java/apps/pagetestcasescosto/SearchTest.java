@@ -1,5 +1,7 @@
 package apps.pagetestcasescosto;
 
+
+
 import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -13,15 +15,11 @@ public class SearchTest  extends CommonAPI {
 
     @Test(enabled = true)
     public void waterBottleSearch() {
-       // getDriver().switchTo().alert().dismiss();
         HomePage homePage =new HomePage(getDriver());
-        waitFor(10);
         homePage.setWindowToClose();
-        homePage.closeEmailTab();
         SearchResultPage searchProduct=new SearchResultPage(getDriver());
         searchProduct.searchProd("water bottle");
-        waitFor(10);
-        //<title>water bottle &nbsp;| Costco</title>
+        waitFor(5);
         String expectedPageTitle  = searchProduct.getPageTitle();
         Assert.assertEquals("water bottle &nbsp;| Costco",expectedPageTitle);
 
@@ -29,11 +27,8 @@ public class SearchTest  extends CommonAPI {
 
     @Test(enabled = false)
     public void kitchenBagSearch() {
-        //getDriver().switchTo().alert().dismiss();
         HomePage homePage =new HomePage(getDriver());
-        waitFor(20);
         homePage.setWindowToClose();
-        homePage.closeEmailTab();
 
         SearchResultPage searchProduct=new SearchResultPage(getDriver());
         searchProduct.searchProd("kitchen bags");
@@ -43,13 +38,13 @@ public class SearchTest  extends CommonAPI {
         Assert.assertEquals(expected,actual);
 
     }
-/*
-    @Test(enabled = true)
-    public void kirklandItemSearch() {
 
-        getDriver().switchTo().alert().dismiss();
+    @Test(enabled = false)
+    public void kirklandItemSearch() {
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
+        SearchResultPage searchProduct=new SearchResultPage(getDriver());
+        searchProduct.searchProd("Kirkland ");
 
-    }*/
+    }
 }

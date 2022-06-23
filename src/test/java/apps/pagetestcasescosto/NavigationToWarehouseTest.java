@@ -2,6 +2,7 @@ package apps.pagetestcasescosto;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.costco.HomePage;
 import pages.costco.ViewWarehouseSavingsPage;
@@ -12,14 +13,15 @@ public class NavigationToWarehouseTest extends CommonAPI {
     @Test
     public void navigateToWarehouse(){
 
-        getDriver().switchTo().alert().dismiss();
-        getDriver().findElement(By.xpath("//*[@id=language-region-set")).click();
         HomePage homePage =new HomePage(getDriver());
-        //homePage.setWindowToClose();
+        homePage.setWindowToClose();
         homePage.closeEmailTab();
         ViewWarehouseSavingsPage navigate=new ViewWarehouseSavingsPage (getDriver());
         navigate.warehouseTab();
         navigate.clicktoViewTab();
+        String expected ="Great Savings This Week &nbsp;| Costco";
+        String actual =navigate.getPageTitle()'
+        Assert.assertEquals(expected,actual);
 
     }
 

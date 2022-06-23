@@ -5,9 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ShopPhotoPage extends CommonAPI {
-
+    private final Logger LOG = LoggerFactory.getLogger(ShopPhotoPage.class);
     @FindBy(xpath="//*[@id='navigation-widget']/div/nav/div[6]")
     private WebElement photoTab;
 
@@ -21,13 +23,16 @@ public class ShopPhotoPage extends CommonAPI {
     }
     public  void selectPhotoTab(){
         click(photoTab);
+        LOG.info("select photo tab");
     }
 
     public  void shopPhoto(){
         click(shopPhotoTab);
+        LOG.info("shop photo");
     }
     public  void printPhoto(){
         click(printTab);
+        LOG.info("print options");
     }
 
 

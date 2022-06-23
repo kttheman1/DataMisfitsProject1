@@ -11,7 +11,7 @@ public class ShopPhotoTest extends CommonAPI {
     public void printPhotoTest(){
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
-        //homePage.closeEmailTab();
+        homePage.closeEmailTab();
         ShopPhotoPage printPhoto=new ShopPhotoPage(getDriver());
         printPhoto.selectPhotoTab();
         printPhoto.shopPhoto();

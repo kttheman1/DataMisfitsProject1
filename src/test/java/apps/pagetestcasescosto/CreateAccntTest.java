@@ -22,7 +22,6 @@ public class CreateAccntTest extends CommonAPI {
         waitFor(3);
         createAccnt.enterpwd("Abcd@2022");
         createAccnt.enterpwdToConfirm("Abcd@2022");
-        waitFor(3);
         createAccnt.clickToCreate();
 
 

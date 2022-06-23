@@ -13,7 +13,6 @@ public class CarValues extends CommonAPI {
         HomePage homePage = new HomePage(getDriver());
         WhatsMyCarWorthPage whatsMyCarWorthPage = new WhatsMyCarWorthPage(getDriver());
         homePage.hoverOverSellMenu(getDriver());
-        waitFor(2);
         homePage.clickCarValuesLink();
         whatsMyCarWorthPage.selectPurposeDropDownList("Trading in a car");
         whatsMyCarWorthPage.selectMakeDropDownList("Honda");
@@ -22,8 +21,6 @@ public class CarValues extends CommonAPI {
         whatsMyCarWorthPage.selectTrimDropDownList("Sport");
         whatsMyCarWorthPage.typeCarValuesZipCode("11375");
         whatsMyCarWorthPage.typeCarValuesPrice("20000");
-        waitFor(3);
-        boolean actual = whatsMyCarWorthPage.assertPriceReportAssertionLogo();
-        Assert.assertEquals("True", actual);
+        Assert.assertTrue(whatsMyCarWorthPage.assertPriceReportAssertionLogo());
     }
 }

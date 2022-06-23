@@ -11,8 +11,6 @@ public class SearchLocationTest extends CommonAPI {
 
     @Test
     public void searchLocation(){
-
-        getDriver().switchTo().alert().dismiss();
         HomePage homePage =new HomePage(getDriver());
         homePage.setWindowToClose();
         homePage.closeEmailTab();
