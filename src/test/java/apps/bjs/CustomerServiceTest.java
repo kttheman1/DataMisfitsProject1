@@ -4,8 +4,8 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.bjs.CustomerServicePage;
-import pages.bjs.HomePage;
+import pages.ebay.CustomerServicePage;
+import pages.ebay.HomePage;
 
 public class CustomerServiceTest extends CommonAPI {
 
