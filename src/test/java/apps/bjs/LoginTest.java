@@ -4,8 +4,8 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.ebay.HomePage;
-import pages.ebay.LogInPage;
+import pages.bjs.HomePage;
+import pages.bjs.LogInPage;
 
 public class LoginTest extends CommonAPI {
 
