@@ -12,7 +12,10 @@ public class AddToCartTest extends CommonAPI {
 
     @Test
     public void addToCart(){
-        HomePage homePage=new HomePage(getDriver());
+        getDriver().switchTo().alert().dismiss();
+        HomePage homePage =new HomePage(getDriver());
+        homePage.setWindowToClose();
+        homePage.closeEmailTab();
         AddToCartPage addToCartPage=new AddToCartPage(getDriver());
         addToCartPage.cartAtHomePage();
         addToCartPage.clickcontinueShopping();
@@ -24,7 +27,6 @@ public class AddToCartTest extends CommonAPI {
         addToCartPage.viewCartWindow();
         addToCartPage.getCheckout();
         String text=addToCartPage.getPageTitle();
-        waitFor(3);
         String expected="Shopping Cart | Costco";
         Assert.assertEquals(text,expected);
     }
