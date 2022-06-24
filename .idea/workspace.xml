@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a910c8e4-dc5e-411e-993e-c1f7294c17a7" name="Changes" comment="kevin's update" />
+    <list default="true" id="a910c8e4-dc5e-411e-993e-c1f7294c17a7" name="Changes" comment="ebay test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -113,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655141141355</updated>
     </task>
+    <task id="LOCAL-00001" summary="ebay test">
+      <created>1656088364214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656088364214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ebay test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ebay test" />
   </component>
 </project>
