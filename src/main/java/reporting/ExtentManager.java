@@ -16,13 +16,10 @@ public class ExtentManager {
             File resultDirectory = new File(outputDirectory.getParentFile(),"html");
             extent = new ExtentReports(System.getProperty("user.dir")+"/Extent-Report/ExtentReport.html", true);
             Reporter.log("Extent Report Directory"+ resultDirectory, true);
-<<<<<<< HEAD
             extent.addSystemInfo("Host Name", "PNT").addSystemInfo("Environment","QA")
                     .addSystemInfo("User Name", "Dilruba Ahmed");
-=======
             extent.addSystemInfo("Host Name", "PNT").addSystemInfo("Environment","QA");
 
->>>>>>> 1f39cc0b9244c85f0d0859a904a41eb4b3c9d036
             extent.loadConfig(new File(System.getProperty("user.dir")+ "/report-config.xml"));
         }
         return extent;

@@ -20,7 +20,7 @@ public class NavigationToWarehouseTest extends CommonAPI {
         navigate.warehouseTab();
         navigate.clicktoViewTab();
         String expected ="Great Savings This Week &nbsp;| Costco";
-        String actual =navigate.getPageTitle()'
+        String actual =navigate.getPageTitle();
         Assert.assertEquals(expected,actual);
 
     }
