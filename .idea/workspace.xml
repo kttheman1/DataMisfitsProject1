@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a910c8e4-dc5e-411e-993e-c1f7294c17a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/ClubLocatorPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CurrentStorePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServicePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/LogInPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/SearchResultPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/StoreLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/StoreLocatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/walmart-runner.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="a910c8e4-dc5e-411e-993e-c1f7294c17a7" name="Changes" comment="kevin's update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2AxRvOK1hUFscEclJemkPaVF9Zc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
