@@ -4,24 +4,12 @@
 <suite name="ebay smoke">
     <parameter name="url" value="https://www.ebay.com"></parameter>
     <parameter name="browser" value="chrome"></parameter>
-    <parameter name="os" value="OS X"></parameter>
-    <test name="login tests">
+    <parameter name="os" value="windows"></parameter>
+    <test name="tests">
         <classes>
-            <class name="apps.ebay.CustomerServiceTest"></class>
+            <class name="apps.ebay.LoginTest"></class>
         </classes>
     </test>
-
-<!--    <test name="test2">-->
-<!--    <classes>-->
-<!--    <class name="apps.bjs.CustomerServiceTest"></class>-->
-<!--    </classes>-->
-<!--    </test>-->
-
-<!--    <test name="test3">-->
-<!--        <classes>-->
-<!--            <class name="apps.bjs.LoginTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
 
 
 </suite>
