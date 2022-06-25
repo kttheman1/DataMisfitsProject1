@@ -23,11 +23,14 @@ public class ClothingShoesPages extends CommonAPI {
     public void setClothingShoes(){
         click(ClothingShoes);
     }
+    //  LOG.info("clicked on clothing/shoes");
     public void setWomen(){
         click(Women);
     }
+    //  LOG.info("clicked on women");
     public void setSeeAllWomen(){
         click(seeAllWomen);
     }
+    //  LOG.info("clicked on see all women");
 
 }

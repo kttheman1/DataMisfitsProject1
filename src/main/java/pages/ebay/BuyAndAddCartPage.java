@@ -20,11 +20,14 @@ public class BuyAndAddCartPage extends CommonAPI {
     public void setHensegg(){
         click(hensegg);
     }
+    //  LOG.info("clicked on hensegg");
     public void setAddtoCart(){
         click(AddtoCart);
     }
+    //  LOG.info("clicked on add to cart");
     public void setGotoCart(){
         click(GotoCart);
     }
+    //  LOG.info("clicked on go to cart");
 
 }

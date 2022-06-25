@@ -24,10 +24,14 @@ public class CollectiblesArtPage extends CommonAPI {
     public void setMainContent(){
         click(mainContent);
     }
+    //  LOG.info("clicked on main content");
     public void setAntiques(){
         click(Antiques);
     }
+    //  LOG.info("clicked on antiques");
+
     public void setSeeAntiques(){
         click(seeAntiques);
     }
+    //  LOG.info("clicked on see antiques");
 }

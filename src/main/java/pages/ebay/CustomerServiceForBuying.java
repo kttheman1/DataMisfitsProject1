@@ -23,11 +23,14 @@ WebElement buingAsGuest;
     public void setClickOnHelpContact(){
         click(clickOnHelpContact);
     }
+    //  LOG.info("clicked on help contact");
     public void setBuing(){
         click(Buing);
     }
+    //  LOG.info("clicked on buying");
     public void setBuingAsGuest(){
         click(buingAsGuest);
     }
+    //  LOG.info("clicked on buying as guest");
 
 }

@@ -19,10 +19,15 @@ public class CustomerServiceForShipingAndTracking extends CommonAPI {
 public void setClickOnHelpContact(){
         click(clickOnHelpContact);
 }
+    //  LOG.info("clicked on help contact");
 public void setShping(){
         click(Shping);
 }
-public void setTracyourItem(){
-        click(TracyourItem);
-}
+    //  LOG.info("clicked on shipping");
+public void setTracyourItem(){ click(TracyourItem);
+    //  LOG.info("clicked on trace your items");
+
+    }
+
+
 }

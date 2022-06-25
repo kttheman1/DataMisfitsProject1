@@ -20,11 +20,13 @@ public class CustomerServiceForSelling extends CommonAPI {
     public void setClickOnHelpContact(){
         click(clickOnHelpContact);
     }
+    //  LOG.info("clicked on help contact");
     public void setSelling(){
         click(selling);
     }
+    //  LOG.info("clicked on selling");
     public void setSellingOnEbay(){
         click(sellingOnEbay);
     }
-
+    //  LOG.info("clicked on selling on ebay");
 }

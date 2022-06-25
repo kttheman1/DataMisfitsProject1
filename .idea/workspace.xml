@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="update for ebay test cases">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/windows/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/windows/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/CurrentStorePage.java" beforeDir="false" />
+    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="final push ?">
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/BrandOutletPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/BrandOutletPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/InvalidLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/InvalidLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/SearchbarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/SearchbarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/ToysPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/ToysPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/AddcartPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/AddcartPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/BrandOutletPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/BrandOutletPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/CollectiblesArtPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CollectiblesArtPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/CommunityPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CommunityPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/ElectronicsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/ElectronicsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/InvalidloginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/InvalidLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/SearchbarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/SearchBarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/BuyAndAddCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/BuyAndAddCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/ClothingShoesPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/ClothingShoesPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CollectiblesArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CollectiblesArtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CommunityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CommunityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForBuying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForBuying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForSelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForSelling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForShipingAndTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForShipingAndTracking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656120541663</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final push ?">
+      <created>1656146897088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656146897089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ebay test" />
     <MESSAGE value="update for ebay test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for ebay test cases" />
+    <MESSAGE value="final push ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="final push ?" />
   </component>
 </project>
