@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class loginPage extends CommonAPI {
+public class InvalidLoginPage extends CommonAPI {
 
     @FindBy(xpath= "//header/div[@id='gh-top']/ul[@id='gh-topl']/li[@id='gh-eb-u']/span[@id='gh-ug']/a[1]")
     WebElement SignInUp;
@@ -28,7 +28,7 @@ public class loginPage extends CommonAPI {
     @FindBy(id = "webauthn-maybe-later-link")
     WebElement later;
 
-    public loginPage(WebDriver driver){
+    public InvalidLoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
     public void Signinup(){
