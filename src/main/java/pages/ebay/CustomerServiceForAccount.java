@@ -24,10 +24,13 @@ public class CustomerServiceForAccount extends CommonAPI
         public void setClickOnHelpContact(){
             click(clickOnHelpContact);
         }
-public void setAccount(){
+    //  LOG.info("clicked on help contact");
+        public void setAccount(){
             click(Account);
 }
-public void setResetyourPass(){
+    //  LOG.info("clicked on account");
+        public void setResetyourPass(){
             click(resetyourPass);
 }
+    //  LOG.info("clicked on reset you password");
     }

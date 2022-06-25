@@ -29,17 +29,22 @@ public class CommunityPage extends CommonAPI {
     public void setCommunity(){
         click(community);
     }
+    //  LOG.info("clicked on community");
     public void setAnnounment(){
         click(Announment);
     }
+    //  LOG.info("clicked on announcement");
     public void seteBayCommunity(){
         click(eBayCommunity);
     }
-public void  setBusinessPodcast(){
+    //  LOG.info("clicked on ebay community");
+    public void  setBusinessPodcast(){
         click(BusinessPodcast);
 }
-public void  setEbayLogo(){
+    //  LOG.info("clicked on business podcast");
+    public void  setEbayLogo(){
         click(EbayLogo);
 }
+    //  LOG.info("clicked on ebay logo");
 
 }

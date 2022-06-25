@@ -51,37 +51,37 @@ public class BrandOutletPage extends CommonAPI {
        // LOG.info("clicked on clothing");
     }
     public void setChampionUPtoFity(){ click(ChampionUPtoFity);
-      //  LOG.info("clicked to 50");
+      //  LOG.info("clicked to 50% off");
     }
     public void setHanesUpToSixFive(){ click(HanesUpToSixFive);
-     //   LOG.info("clicked on 65");
+     //   LOG.info("clicked on 65% off");
     }
     public void setSuperdryUpToFifty(){ click(SuperdryUpToFifty);
-    //    LOG.info("clicked on superdry to 50");
+    //    LOG.info("clicked on superdry to 50% off");
     }
     public void setVolcomUpToThirty(){ click(VolcomUpToThirty);
-       // LOG.info("clicked on 30");
+       // LOG.info("clicked on 30% off");
     }
     public void setFootwearApprel(){ click(FootwearApprel);
       //  LOG.info("clicked on footwear apparel");
     }
     public void setASISUptoSixty(){ click(ASISUptoSixty);
-      //  LOG.info("clicked on 60");
+      //  LOG.info("clicked on 60% off");
     }
     public void setCrocsUptoForty(){ click(CrocsUptoForty);
-       // LOG.info("clicked on 40");
+       // LOG.info("clicked on 40% off");
     }
     public void setKedsUptoFif(){ click(kedsUptoFifty);
-      //  LOG.info("clicked on 50");
+      //  LOG.info("clicked on 50% off");
 }
     public void setPumaUptoSity(){ click(PumaUptoSity);
-       // LOG.info("clicked on 60");
+       // LOG.info("clicked on 60% off");
 }
     public void setReebookUptoForty(){ click(ReebookUptoForty);
-       // LOG.info("clicked on 40");
+       // LOG.info("clicked on 40% off");
 }
     public void setSauconyUptoFif(){ click(SauconyUptoFifty);
-       // LOG.info("clicked on 50");
+       // LOG.info("clicked on 50% off");
 }
 
 }
