@@ -15,6 +15,7 @@ public class ElectronicsPageTest extends CommonAPI {
        // Ele.setPrinter();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
 
+
     }
     @Test
     public void camera(){

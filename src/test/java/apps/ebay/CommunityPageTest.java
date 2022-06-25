@@ -9,32 +9,32 @@ import pages.ebay.CommunityPage;
 public class CommunityPageTest extends CommonAPI {
     @Test
     public void community(){
-        CommunityPage nityy = new CommunityPage(getDriver());
-        nityy.setCommunity();
-       // nityy.setEbayLogo();
+        CommunityPage community = new CommunityPage(getDriver());
+        community.setCommunity();
+       community.setEbayLogo();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
 
     }
     @Test
     public void announment(){
-        CommunityPage nityy = new CommunityPage(getDriver());
-        nityy.setAnnounment();
-       // nityy.setEbayLogo();
-       // Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
+        CommunityPage community = new CommunityPage(getDriver());
+        community.setAnnounment();
+       community.setEbayLogo();
+       Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
 
     }
     @Test
     public void ebaycommunity(){
-        CommunityPage nityy = new CommunityPage(getDriver());
-        nityy.seteBayCommunity();
-       // nityy.setEbayLogo();
+        CommunityPage community = new CommunityPage(getDriver());
+        community.seteBayCommunity();
+       community.setEbayLogo();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
 
     }
     @Test
     public void ebaypodcast(){
-        CommunityPage nityy = new CommunityPage(getDriver());
-        nityy.setBusinessPodcast();
+        CommunityPage community = new CommunityPage(getDriver());
+        community.setBusinessPodcast();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
 
 

@@ -24,7 +24,7 @@ public class CollectiblesArtPageTest extends CommonAPI {
 
     }
     @Test
-    public  void seeAntiq(){
+    public void seeAntiq(){
         CollectiblesArtPage art = new CollectiblesArtPage(getDriver());
         art.setMainContent();
         art.setAntiques();

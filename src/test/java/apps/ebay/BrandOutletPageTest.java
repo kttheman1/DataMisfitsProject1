@@ -84,7 +84,7 @@ public void FootwearApprel(){
 
 }
 @Test
-    public void cros(){
+    public void Crocs(){
     BrandOutletPage outlet = new BrandOutletPage(getDriver());
     outlet.setBrandOutlet();
     outlet.setFootwearApprel();
@@ -104,7 +104,7 @@ public void FootwearApprel(){
 
 }
 @Test
-    public void puma(){
+    public void Puma(){
     BrandOutletPage outlet = new BrandOutletPage(getDriver());
     outlet.setBrandOutlet();
     outlet.setFootwearApprel();
@@ -113,7 +113,7 @@ public void FootwearApprel(){
 
 }
 @Test
-    public void reedbook(){
+    public void Reebok(){
     BrandOutletPage outlet = new BrandOutletPage(getDriver());
     outlet.setBrandOutlet();
     outlet.setFootwearApprel();

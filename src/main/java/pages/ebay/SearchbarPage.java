@@ -20,13 +20,15 @@ WebElement firstItemSelect;
     public SearchbarPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-public void setSearchBar(String text){
-        type(searchBar,text);
 
-}
+public void setSearchBar(String text){ type(searchBar,text); }
+
+    public void clickSearchField() {click(searchBar);}
+
 public void setSearchButton(){
         click(searchButton);
 }
+
 public void setFirstItemSelect(){
         click(firstItemSelect);
 }

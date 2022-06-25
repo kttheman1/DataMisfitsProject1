@@ -8,8 +8,8 @@
     <test name="tests">
         <classes>
             <class name="apps.ebay.LoginTest"></class>
-            <class name="apps.ebay.InvalidloginPage"></class>
-            <class name="apps.ebay.SearchbarPageTest"></class>
+            <class name="apps.ebay.InvalidLogin"></class>
+            <class name="apps.ebay.SearchBarTest"></class>
             <class name="apps.ebay.HelpAndContactPageTest"></class>
             <class name="apps.ebay.CustomerServiceForBuyingTest"></class>
             <class name="apps.ebay.CustomerServiceForSellingTest"></class>
