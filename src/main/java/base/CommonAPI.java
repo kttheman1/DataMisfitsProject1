@@ -105,15 +105,7 @@ public class CommonAPI {
     }
 
     public void getLocalDriver(String browser, String os){
-        if (os.equalsIgnoreCase("windows")){
-            if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"\\driver\\windows\\chromedriver.exe");
-                driver = new ChromeDriver();
-            }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\windows\\geckodriver.exe");
-                driver = new FirefoxDriver();
-            }
-        }else if (os.equalsIgnoreCase("OS X")){
+        if (os.equalsIgnoreCase("OS X")){
             if (browser.equalsIgnoreCase("chrome")){
                 System.setProperty("webdriver.chrome.driver", Utility.currentDir+"/driver/mac/chromedriver");
                 driver = new ChromeDriver();
@@ -121,7 +113,17 @@ public class CommonAPI {
                 System.setProperty("webdriver.gecko.driver", Utility.currentDir+"/driver/mac/geckodriver");
                 driver = new FirefoxDriver();
             }
-        }else if (os.equalsIgnoreCase("linux")){
+        }
+        else if (os.equalsIgnoreCase("windows")){
+            if (browser.equalsIgnoreCase("chrome")){
+                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"\\driver\\windows\\chromedriver.exe");
+                driver = new ChromeDriver();
+            }else if (browser.equalsIgnoreCase("firefox")){
+                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\windows\\geckodriver.exe");
+                driver = new FirefoxDriver();
+            }
+        }
+        else if (os.equalsIgnoreCase("linux")){
             if (browser.equalsIgnoreCase("chrome")){
                 System.setProperty("webdriver.chrome.driver", Utility.currentDir+"\\driver\\linux\\chromedriver");
                 driver = new ChromeDriver();

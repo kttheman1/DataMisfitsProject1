@@ -11,8 +11,7 @@ public class InvalidLoginPage extends CommonAPI {
     @FindBy(xpath= "//header/div[@id='gh-top']/ul[@id='gh-topl']/li[@id='gh-eb-u']/span[@id='gh-ug']/a[1]")
     WebElement SignInUp;
 
-    @FindBy(id = "userid")
-    WebElement email;
+
 
     @FindBy(id = "signin-continue-btn")
     WebElement continueButton;
@@ -31,13 +30,10 @@ public class InvalidLoginPage extends CommonAPI {
     public InvalidLoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-    public void Signinup(){
-        click(SignInUp);
+    public void Signinup(){ click(SignInUp);
     }
 
-    public void enterEmail(String text){
-        type(email, text);
-    }
+
     public void Cbutton(){
         click(continueButton);
     }

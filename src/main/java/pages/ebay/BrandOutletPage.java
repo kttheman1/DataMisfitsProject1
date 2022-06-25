@@ -10,7 +10,7 @@ public class BrandOutletPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Brand Outlet')]")
     WebElement BrandOutlet;
 
-    @FindBy(xpath = "//span[contains(text(),'Clothing')]")
+    @FindBy(css = ".b-accordion-text")
     WebElement Clothing;
 
    @FindBy(xpath = "//a[contains(text(),'Champion - Up to 50% off')]")
@@ -31,58 +31,57 @@ public class BrandOutletPage extends CommonAPI {
   WebElement CrocsUptoForty;
 
   @FindBy(xpath = "//a[contains(text(),'Keds - Up to 50% off')]")
-    WebElement kedsUptoFif;
+    WebElement kedsUptoFifty;
   @FindBy(xpath = "//a[contains(text(),'Puma - Up to 60% off')]")
     WebElement PumaUptoSity;
   @FindBy(xpath = "//a[contains(text(),'Reebok - Up to 40% off')]")
     WebElement ReebookUptoForty;
   @FindBy(xpath = "//a[contains(text(),'Saucony - Up to 50% off')]")
-    WebElement SauconyUptoFif;
+    WebElement SauconyUptoFifty;
 
     public BrandOutletPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
 
-    public void setBrandOutlet(){
-        click(BrandOutlet);
+    public void setBrandOutlet(){ click(BrandOutlet);
+//        LOG.info("clicked on Brand Outlet");
     }
-    public  void setClothing()
-    {
-        click(Clothing);
-    }
-    public void setChampionUPtoFity(){
-        click(ChampionUPtoFity);
-    }
-    public void setHanesUpToSixFive(){
-        click(HanesUpToSixFive);
-    }
-    public void setSuperdryUpToFifty(){
-        click(SuperdryUpToFifty);
-    }
-    public void setVolcomUpToThirty(){
-        click(VolcomUpToThirty);
-    }
-    public void setFootwearApprel(){
-        click(FootwearApprel);
-    }
-    public void setASISUptoSixty(){
-        click(ASISUptoSixty);
-    }
-    public void setCrocsUptoForty(){
-        click(CrocsUptoForty);
-    }
-public void setKedsUptoFif(){
-        click(kedsUptoFif);
-}
-public void setPumaUptoSity(){
-        click(PumaUptoSity);
 
+    public  void setClothing() { click(Clothing);
+       // LOG.info("clicked on clothing");
+    }
+    public void setChampionUPtoFity(){ click(ChampionUPtoFity);
+      //  LOG.info("clicked to 50");
+    }
+    public void setHanesUpToSixFive(){ click(HanesUpToSixFive);
+     //   LOG.info("clicked on 65");
+    }
+    public void setSuperdryUpToFifty(){ click(SuperdryUpToFifty);
+    //    LOG.info("clicked on superdry to 50");
+    }
+    public void setVolcomUpToThirty(){ click(VolcomUpToThirty);
+       // LOG.info("clicked on 30");
+    }
+    public void setFootwearApprel(){ click(FootwearApprel);
+      //  LOG.info("clicked on footwear apparel");
+    }
+    public void setASISUptoSixty(){ click(ASISUptoSixty);
+      //  LOG.info("clicked on 60");
+    }
+    public void setCrocsUptoForty(){ click(CrocsUptoForty);
+       // LOG.info("clicked on 40");
+    }
+    public void setKedsUptoFif(){ click(kedsUptoFifty);
+      //  LOG.info("clicked on 50");
 }
-public void setReebookUptoForty(){
-        click(ReebookUptoForty);
+    public void setPumaUptoSity(){ click(PumaUptoSity);
+       // LOG.info("clicked on 60");
 }
-public void setSauconyUptoFif(){
-        click(SauconyUptoFif);
+    public void setReebookUptoForty(){ click(ReebookUptoForty);
+       // LOG.info("clicked on 40");
+}
+    public void setSauconyUptoFif(){ click(SauconyUptoFifty);
+       // LOG.info("clicked on 50");
 }
 
 }

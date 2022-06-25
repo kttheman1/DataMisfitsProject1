@@ -4,50 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="updates for bjs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/BrandOutletPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/BuyAndAddCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/ClothingShoesPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CollectiblesArtPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CommunityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForBuying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForSelling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/CustomerServiceForShipingAndTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/ElectronicsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/HelpAndContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/HomeAndGarden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/MorePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/MotorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/SearchbarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/SocialMediaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/ToysPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/AddcartPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/BrandOutletPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/ClothingShoesPagesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CollectiblesArtPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CommunityPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CustomerServiceForAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CustomerServiceForBuyingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CustomerServiceForSellingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CustomerServiceForShipingAndTrackingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/ElectronicsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/HelpAndContactPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/HomeAndGardenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/InvalidloginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/MorePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/MotorPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/SearchbarPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/SocialMediaPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/ToysPageTest.java" afterDir="false" />
+    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="update for ebay test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/InvalidLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/windows/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/windows/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/CurrentStorePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/BrandOutletPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/BrandOutletPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/InvalidLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/InvalidLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/SearchbarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/SearchbarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ebay/ToysPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ebay/ToysPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/AddcartPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/AddcartPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/BrandOutletPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/BrandOutletPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/CollectiblesArtPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CollectiblesArtPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/CommunityPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/CommunityPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/ElectronicsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/ElectronicsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/InvalidloginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/InvalidLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/ebay/SearchbarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/ebay/SearchBarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,31 +68,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-    &quot;keyToString&quot;: {
-
-    }
-    }</component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/kevinschool/IdeaProjects/DataMisfitsProject1/driver/windows"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/driver/windows" />
+      <recent name="$PROJECT_DIR$/driver/mac" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="apps.ebay" />
       <recent name="pages.ebay" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml">
-    <configuration name="SearchTest.searchLandOLakesEggs" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/ebay-runner.xml">
+    <configuration name="AddcartPageTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BootCampProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.bjs.*" />
+          <option name="PATTERN" value="apps.ebay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" />
-      <option name="PACKAGE_NAME" value="apps.bjs" />
-      <option name="MAIN_CLASS_NAME" value="apps.bjs.SearchTest" />
-      <option name="METHOD_NAME" value="searchLandOLakesEggs" />
+      <option name="PACKAGE_NAME" value="apps.ebay" />
+      <option name="MAIN_CLASS_NAME" value="apps.ebay.AddcartPageTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,9 +102,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrandOutletPageTest.Clothing" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BootCampProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apps.ebay" />
+      <option name="MAIN_CLASS_NAME" value="apps.ebay.BrandOutletPageTest" />
+      <option name="METHOD_NAME" value="Clothing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrandOutletPageTest.champion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apps.ebay" />
+      <option name="MAIN_CLASS_NAME" value="apps.ebay.BrandOutletPageTest" />
+      <option name="METHOD_NAME" value="champion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvalidLogin.InvalidLoginCred" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apps.ebay" />
+      <option name="MAIN_CLASS_NAME" value="apps.ebay.InvalidLogin" />
+      <option name="METHOD_NAME" value="InvalidLoginCred" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/ebay-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ebay-runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -133,8 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml" />
-        <item itemvalue="TestNG.SearchTest.searchLandOLakesEggs" />
+        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/ebay-runner.xml" />
+        <item itemvalue="TestNG.InvalidLogin.InvalidLoginCred" />
+        <item itemvalue="TestNG.AddcartPageTest.login" />
+        <item itemvalue="TestNG.BrandOutletPageTest.champion" />
+        <item itemvalue="TestNG.BrandOutletPageTest.Clothing" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656088364214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update for ebay test cases">
+      <created>1656120541663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656120541663</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +215,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ebay test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ebay test" />
+    <MESSAGE value="update for ebay test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for ebay test cases" />
   </component>
 </project>

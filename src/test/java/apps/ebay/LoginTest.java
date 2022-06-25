@@ -12,8 +12,8 @@ public class LoginTest extends CommonAPI {
     @Test
     public void validLoginCred() {
         LoginPage Login = new LoginPage(getDriver());
-        waitFor(6);
-        Login.Signinup();
+        waitFor(7);
+        Login.signIn();
         waitFor(7);
         Login.clickEmailField();
         Login.enterEmail("kevinsundeep@gmail.com");

@@ -32,7 +32,7 @@ public class LoginPage extends CommonAPI {
     public LoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-    public void Signinup(){
+    public void signIn(){
         click(SignInUp);
     }
 
