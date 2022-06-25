@@ -4,10 +4,29 @@
 <suite name="ebay smoke">
     <parameter name="url" value="https://www.ebay.com"></parameter>
     <parameter name="browser" value="chrome"></parameter>
-    <parameter name="os" value="windows"></parameter>
+    <parameter name="os" value="OS X"></parameter>
     <test name="tests">
         <classes>
             <class name="apps.ebay.LoginTest"></class>
+            <class name="apps.ebay.InvalidloginPage"></class>
+            <class name="apps.ebay.SearchbarPageTest"></class>
+            <class name="apps.ebay.HelpAndContactPageTest"></class>
+            <class name="apps.ebay.CustomerServiceForBuyingTest"></class>
+            <class name="apps.ebay.CustomerServiceForSellingTest"></class>
+            <class name="apps.ebay.CustomerServiceForShipingAndTrackingTest"></class>
+            <class name="apps.ebay.CustomerServiceForAccountTest"></class>
+            <class name="apps.ebay.HomePageTest"></class>
+            <class name="apps.ebay.MotorPageTest"></class>
+            <class name="apps.ebay.ElectronicsPageTest"></class>
+            <class name="apps.ebay.CollectiblesArtPageTest"></class>
+            <class name="apps.ebay.HomeAndGardenTest"></class>
+            <class name="apps.ebay.ClothingShoesPagesTest"></class>
+            <class name="apps.ebay.ToysPageTest"></class>
+            <class name="apps.ebay.MorePageTest"></class>
+            <class name="apps.ebay.SocialMediaPageTest"></class>
+            <class name="apps.ebay.BrandOutletPageTest"></class>
+            <class name="apps.ebay.CommunityPageTest"></class>
+            <class name="apps.ebay.AddcartPageTest"></class>
         </classes>
     </test>
 

@@ -4,23 +4,23 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.ebay.InvalidLoginPage;
 import pages.ebay.LoginPage;
 
-public class LoginTest extends CommonAPI {
-
-
+public class InvalidloginPage extends CommonAPI {
     @Test
-    public void validLoginCred() {
+    public void InvalidLoginCred() {
+        InvalidLoginPage Ilogin = new InvalidLoginPage(getDriver());
         LoginPage Login = new LoginPage(getDriver());
+        Ilogin.Signinup();
         waitFor(6);
-        Login.Signinup();
-        waitFor(7);
         Login.clickEmailField();
-        Login.enterEmail("kevinsundeep@gmail.com");
-        Login.Cbutton();
-        Login.enterPassword("Testing@123");
-        Login.enterPasswordSignInBtn();
+        Ilogin.enterEmail("kevinsundeep@gmal.com");
+        Ilogin.Cbutton();
+        Ilogin.enterPassword("Testin123");
+        Ilogin.enterPasswordSignInBtn();
         waitFor(7);
+        Ilogin.logoBTn();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("#gh-logo")).isDisplayed());
 
 
